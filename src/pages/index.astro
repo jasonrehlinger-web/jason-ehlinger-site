@@ -1,0 +1,326 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Leadership Coach & Personal Finance Expert"
+  description="Jason Ehlinger is a leadership coach, personal finance expert, and CEO of Taika Translations. Built a 7-figure business from scratch with no investors. Helping entrepreneurs build high-performing teams and lasting wealth."
+  keywords="leadership coach, business coach, personal finance coach, executive coaching, team building, wealth building, veteran entrepreneur, leadership development, performance coaching, financial freedom, entrepreneur coach, small business coach, how to build a high-performing team, zero-based budgeting, building wealth from nothing"
+>
+
+  <!-- HERO -->
+  <section class="hero" style="position:relative; min-height:640px; overflow:hidden; padding:6rem 1.5rem 5rem;">
+    <div class="hero-inner">
+      <span class="section-label">Leadership · Finance · Freedom</span>
+      <h1>Your Team Isn't Broken.<br/><em>Your Leadership System Is.</em></h1>
+      <p>You're already putting in the work. What most leaders and families are missing isn't effort — it's the right system. Built from a card table with no investors and no safety net, these are the proven frameworks for leading high-performing teams and building lasting wealth. They're yours to use.</p>
+      <div class="hero-actions">
+        <a href="#the-forge" class="btn btn-gold">The Forge — Free Course</a>
+        <a href="/about" class="btn btn-outline">My Story</a>
+      </div>
+      <div style="margin-top:2rem; display:flex; align-items:center; flex-wrap:wrap; gap:0.5rem 0.75rem; border-top:1px solid #2a2a2a; padding-top:1.25rem; font-size:0.85rem; max-width:600px;">
+        <span style="color:#888; font-weight:600;">💰 Also fixing your finances:</span>
+        <a href="/tools/investment-calculator" style="color:var(--gold); font-weight:700; text-decoration:none;">Investment Calculator</a>
+        <span style="color:#444;">·</span>
+        <a href="/tools/retirement-calculator" style="color:var(--gold); font-weight:700; text-decoration:none;">Retirement Calculator</a>
+        <span style="color:#444;">·</span>
+        <a href="/tools/compound-interest-calculator" style="color:var(--gold); font-weight:700; text-decoration:none;">Compound Interest</a>
+      </div>
+    </div>
+    <!-- Hero photo — absolutely positioned right side -->
+    <img
+      src="/jason-hero-full.jpg"
+      alt="Jason Ehlinger"
+      style="position:absolute; right:0; bottom:0; height:100%; width:auto; max-width:45%; object-fit:cover; object-position:top center; display:block;"
+    />
+  </section>
+
+  <!-- SOCIAL PROOF BAR -->
+  <section style="background:#111; padding:1.5rem; border-bottom:1px solid #222;">
+    <div class="container" style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:center; align-items:center;">
+      <div style="text-align:center; color:#ccc;">
+        <strong style="color:#fff; display:block; font-size:1.4rem;">7-Figure</strong>
+        <span style="font-size:0.8rem; letter-spacing:0.08em; text-transform:uppercase;">Business Built</span>
+      </div>
+      <div style="width:1px; height:40px; background:#333;"></div>
+      <div style="text-align:center; color:#ccc;">
+        <strong style="color:#fff; display:block; font-size:1.4rem;">777+</strong>
+        <span style="font-size:0.8rem; letter-spacing:0.08em; text-transform:uppercase;">Videos Published</span>
+      </div>
+      <div style="width:1px; height:40px; background:#333;"></div>
+      <div style="text-align:center; color:#ccc;">
+        <strong style="color:#fff; display:block; font-size:1.4rem;">13-Part</strong>
+        <span style="font-size:0.8rem; letter-spacing:0.08em; text-transform:uppercase;">Leadership Masterclass</span>
+      </div>
+      <div style="width:1px; height:40px; background:#333;"></div>
+      <div style="text-align:center; color:#ccc;">
+        <strong style="color:#fff; display:block; font-size:1.4rem;">$0</strong>
+        <span style="font-size:0.8rem; letter-spacing:0.08em; text-transform:uppercase;">Investor Capital</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE FORGE — FEATURED COURSE -->
+  <section class="section section-dark" id="the-forge">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:center;">
+        <div>
+          <span class="section-label">Free Leadership Course</span>
+          <h2 style="font-size:2.5rem; color:var(--white); margin-bottom:1rem;">The Forge</h2>
+          <p style="font-size:1.1rem; color:#ccc; margin-bottom:0.75rem; font-style:italic;">The Complete Course on Transitioning from Manager to Leader</p>
+          <p style="color:#aaa; margin-bottom:1.5rem; line-height:1.8;">A comprehensive 13-part masterclass designed to guide you through the crucial, challenging, and ultimately rewarding transformation from a manager into a true leader. Stop managing tasks. Start inspiring people.</p>
+          <a href="https://www.youtube.com/playlist?list=PL9gAYdG_RPlGi3HtmLBxfCVI0BRa4phIP" target="_blank" rel="noopener" class="btn btn-gold">Watch Free on YouTube →</a>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.75rem;">
+          {[
+            "Developing strong leadership skills",
+            "Unlocking your unique leadership style",
+            "Mastering tough conversations",
+            "Scaling your business as a leader",
+            "Creating a life-changing vision",
+            "Recovering after total failure",
+            "Vulnerability-based trust",
+            "Running meetings that actually work",
+            "Building a great team",
+            "Building long-term commitment",
+          ].map(item => (
+            <div style="background:#1a1a1a; border:1px solid #2a2a2a; border-radius:3px; padding:0.75rem 1rem; font-size:0.85rem; color:#ccc;">
+              <span style="color:var(--gold); margin-right:0.5rem;">✓</span>{item}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TWO PILLARS -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:3rem;">
+        <span class="section-label">Two Pillars</span>
+        <h2 style="font-size:2rem;">Leadership & Finance — Two Sides of the Same Coin</h2>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem;">
+
+        <!-- Leadership -->
+        <div style="background:var(--black); color:var(--white); border-radius:4px; padding:2.5rem;">
+          <span class="section-label">Leadership</span>
+          <h3 style="font-size:1.6rem; margin-bottom:1rem; color:var(--white);">The Leadership Operating System</h3>
+          <p style="color:#aaa; margin-bottom:1.5rem;">Stop working <em>in</em> your business. Start working <em>on</em> it. You'll have the exact frameworks to build a high-performing, mission-driven team — proven at Taika Translations.</p>
+          <ul class="checklist" style="border-color:#2a2a2a;">
+            <li style="color:#ccc; border-color:#2a2a2a;">Build a high-accountability team</li>
+            <li style="color:#ccc; border-color:#2a2a2a;">Make decisions without second-guessing</li>
+            <li style="color:#ccc; border-color:#2a2a2a;">Run meetings that solve problems</li>
+            <li style="color:#ccc; border-color:#2a2a2a;">Create a life-changing vision</li>
+            <li style="color:#ccc; border-color:#2a2a2a;">Escape the Operator's Trap</li>
+          </ul>
+          <div style="margin-top:1.5rem; display:flex; gap:0.75rem; flex-wrap:wrap;">
+            <a href="/services#leadership" class="btn btn-gold">Services</a>
+            <a href="https://www.youtube.com/playlist?list=PL9gAYdG_RPlGi3HtmLBxfCVI0BRa4phIP" target="_blank" rel="noopener" class="btn btn-outline" style="font-size:0.8rem; padding:0.6rem 1.25rem;">The Forge ↗</a>
+          </div>
+        </div>
+
+        <!-- Finance -->
+        <div style="background:var(--light-gray); border-radius:4px; padding:2.5rem;">
+          <span class="section-label">Finance</span>
+          <h3 style="font-size:1.6rem; margin-bottom:1rem;">Building Wealth From Zero</h3>
+          <p style="color:var(--gray); margin-bottom:1.5rem;">No investors, no trust fund — just a card table and a plan. 777+ videos covering everything from zero-based budgeting to money in marriage.</p>
+          <ul class="checklist">
+            <li>Zero-based budgeting that doesn't feel like a budget</li>
+            <li>Saving $100k on a military salary</li>
+            <li>Finances in marriage & dating</li>
+            <li>Building wealth when starting from nothing</li>
+            <li>Why you're working hard but still broke</li>
+          </ul>
+          <div style="margin-top:1.5rem; display:flex; gap:0.75rem; flex-wrap:wrap;">
+            <a href="https://www.youtube.com/@Visiontribemoney" target="_blank" rel="noopener" class="btn btn-gold">Vision Tribe Money ↗</a>
+            <a href="/services#finance" class="btn btn-dark" style="font-size:0.8rem; padding:0.6rem 1.25rem;">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WIN WITH MONEY -->
+  <section class="section" style="background:var(--gold);">
+    <div class="container" style="max-width:1040px;">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:center;">
+        <div>
+          <span class="section-label" style="color:#000; opacity:0.6;">Personal Finance</span>
+          <h2 style="font-size:2.4rem; color:#000; margin-bottom:1.25rem; line-height:1.2;">You Work Too Hard<br/>to Stay Broke.</h2>
+          <p style="color:#1a0e00; font-size:1.1rem; margin-bottom:1.5rem; line-height:1.7;">Most people earn good money and still feel behind. The problem isn't your income — it's that nobody taught you the system. I show families how to stop the paycheck-to-paycheck cycle, pay off debt, and build real wealth. No gimmicks. No fluff.</p>
+          <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+            <a href="https://www.youtube.com/@Visiontribemoney" target="_blank" rel="noopener" class="btn" style="background:#000; color:var(--gold);">Vision Tribe Money ↗</a>
+            <a href="/tools" class="btn" style="background:transparent; border:2px solid #000; color:#000;">Free Money Tools →</a>
+          </div>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+          {[
+            { icon: "💰", text: "Zero-based budgeting that actually works" },
+            { icon: "💍", text: "Money & marriage — get on the same page" },
+            { icon: "📈", text: "Investing basics — start from nothing" },
+            { icon: "🏠", text: "Pay off your house faster than you think" },
+            { icon: "🎙️", text: "Live every Tuesday & Wednesday on YouTube" },
+            { icon: "🧮", text: "Free calculators — see your numbers grow" },
+          ].map(item => (
+            <div style="background:rgba(0,0,0,0.12); border-radius:6px; padding:1rem; font-size:0.88rem; color:#000; font-weight:600; display:flex; flex-direction:column; gap:0.4rem;">
+              <span style="font-size:1.4rem;">{item.icon}</span>
+              {item.text}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MONEY TOOLS CARDS -->
+  <section class="section" style="background:var(--light-gray);">
+    <div class="container" style="max-width:1040px;">
+      <div class="text-center" style="margin-bottom:2.5rem;">
+        <span class="section-label">Free Tools</span>
+        <h2 style="font-size:2rem;">Run Your Numbers Right Now</h2>
+        <p style="color:var(--gray); margin-top:0.5rem;">No sign-up. No fluff. Just your numbers.</p>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem;">
+        <a href="/tools/investment-calculator" class="tool-card">
+          <div class="tool-icon">📈</div>
+          <h3>Investment Calculator</h3>
+          <p>Enter your age and monthly contribution — see how your investments grow over time.</p>
+          <span class="tool-link">Calculate Now →</span>
+        </a>
+        <a href="/tools/retirement-calculator" class="tool-card">
+          <div class="tool-icon">🏖️</div>
+          <h3>Retirement Calculator</h3>
+          <p>Are you on track to retire? Find your number and see exactly what it takes to get there.</p>
+          <span class="tool-link">Calculate Now →</span>
+        </a>
+        <a href="/tools/compound-interest-calculator" class="tool-card">
+          <div class="tool-icon">💸</div>
+          <h3>Compound Interest Calculator</h3>
+          <p>See the eighth wonder of the world in action — watch your interest earn interest.</p>
+          <span class="tool-link">Calculate Now →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FREE LENCIONI COURSE -->
+  <section class="section section-gray">
+    <div class="container" style="max-width:860px;">
+      <div style="display:grid; grid-template-columns:auto 1fr; gap:3rem; align-items:center;">
+        <div style="text-align:center;">
+          <div style="font-size:3rem; margin-bottom:0.5rem;">📘</div>
+          <div style="font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--gray);">Free Course</div>
+        </div>
+        <div>
+          <span class="section-label">Patrick Lencioni Framework</span>
+          <h2 style="font-size:1.6rem; margin-bottom:0.75rem;">How to Create a Successful Business — Free 7-Part Course</h2>
+          <p style="color:var(--gray); margin-bottom:1.25rem;">Inspired by Patrick Lencioni's <em>The Advantage</em>, this free course walks you step by step through building a strong, resilient business — from company culture and team leadership to clarifying purpose and eliminating the wrong priorities.</p>
+          <a href="https://www.youtube.com/playlist?list=PL9gAYdG_RPlH3p90RRN9riuhGtMmWO8UC" target="_blank" rel="noopener" class="btn btn-dark">Watch Free on YouTube →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT STRIP -->
+  <section class="section section-dark">
+    <div class="container" style="display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:center;">
+      <div style="text-align:center;">
+        <img
+          src="/jason-headshot.jpg"
+          alt="Jason Ehlinger — Leadership Coach and CEO"
+          style="width:100%; max-width:420px; border-radius:4px; display:block; margin:0 auto;"
+        />
+      </div>
+      <div>
+        <span class="section-label">My Story</span>
+        <h2 style="font-size:2rem; margin-bottom:1.25rem;">I Don't Teach Theory. I Teach What I Lived.</h2>
+        <p style="color:#ccc; margin-bottom:1rem; font-size:1.05rem;">I'm the CEO of <a href="https://www.taikatranslations.com" target="_blank" style="color:var(--gold);">Taika Translations</a>, a veteran-owned multimillion-dollar language services company built from scratch. U.S. Air Force veteran. Husband. Father of 8.</p>
+        <p style="color:#ccc; margin-bottom:2rem;">Every framework here came from painful, real-world experience — not a business school textbook. If you're ready to lead differently and build real wealth, you're in the right place.</p>
+        <a href="/about" class="btn btn-gold">Read My Full Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section-gray">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:3rem;">
+        <span class="section-label">What People Say</span>
+        <h2 style="font-size:2rem;">Real Leaders. Real Results.</h2>
+      </div>
+      <div class="card-grid">
+        <div class="testimonial">
+          <blockquote>"Before I started working with Jason, my life and business felt out of sync with the goals and dreams I had for myself. From the moment I began using the strategies Jason shared, everything started to change."</blockquote>
+          <cite>Jake Gardner</cite>
+        </div>
+        <div class="testimonial">
+          <blockquote>"Working with Jason has completely changed how I see leadership. He doesn't just give orders — he listens, challenges us, and makes sure we understand the bigger mission. I've grown more in the past year than in all my previous experiences combined."</blockquote>
+          <cite>Karina Romano</cite>
+        </div>
+        <div class="testimonial">
+          <blockquote>"Jason has a way of making you feel both supported and accountable at the same time. He pushes you to think bigger, trusts you with real responsibility, and is always ready to jump in when needed."</blockquote>
+          <cite>João Vitor</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MASTERCLASS CTA -->
+  <section class="section" style="background:var(--black); text-align:center;">
+    <div class="container" style="max-width:680px;">
+      <span class="section-label">Free Masterclasses · Every Wednesday</span>
+      <h2 style="font-size:2.2rem; color:var(--white); margin-bottom:1rem;">Want to Build an Unbreakable Life?</h2>
+      <p style="color:#ccc; margin-bottom:2rem;">Join our free weekly live masterclasses on leadership, finance, mindset, and building a life on your own terms.</p>
+      <form name="masterclass" method="POST" data-netlify="true"
+        style="display:flex; gap:0.75rem; max-width:460px; margin:0 auto; flex-wrap:wrap;">
+        <input type="hidden" name="form-name" value="masterclass" />
+        <input type="email" name="email" placeholder="Your email address" required
+          style="flex:1; padding:0.85rem 1rem; border:none; border-radius:2px; font-size:1rem; min-width:200px;" />
+        <button type="submit" class="btn btn-gold">Register Free</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section" style="text-align:center;">
+    <div class="container" style="max-width:600px;">
+      <span class="section-label">Ready to Start?</span>
+      <h2 style="font-size:2rem; margin-bottom:1rem;">Stop Operating. Start Leading.</h2>
+      <p style="color:var(--gray); margin-bottom:2rem;">Whether it's leadership, personal finance, or a full life overhaul — let's figure out where you are and build a plan to get you there.</p>
+      <a href="/contact" class="btn btn-gold" style="font-size:1rem; padding:1rem 2.5rem;">Schedule a Free Assessment</a>
+    </div>
+  </section>
+
+</Layout>
+
+<style>
+  @media (max-width: 860px) {
+    .hero img[alt="Jason Ehlinger"] { display: none !important; }
+  }
+  .tool-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 2rem 1.75rem;
+    text-decoration: none;
+    color: var(--black);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    transition: transform 0.18s, box-shadow 0.18s;
+  }
+  .tool-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+  .tool-icon { font-size: 2.4rem; margin-bottom: 1rem; }
+  .tool-card h3 { font-size: 1.1rem; font-weight: 800; margin-bottom: 0.6rem; }
+  .tool-card p { font-size: 0.9rem; color: var(--gray); line-height: 1.6; flex: 1; margin-bottom: 1.25rem; }
+  .tool-link { font-size: 0.85rem; font-weight: 800; color: var(--gold); letter-spacing: 0.03em; }
+  @media (max-width: 768px) {
+    div[style*="grid-template-columns:1fr 1fr"],
+    div[style*="grid-template-columns:auto 1fr"],
+    div[style*="grid-template-columns:repeat(3,1fr)"] {
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>

@@ -1,0 +1,115 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Contact — Book a Free Leadership Assessment"
+  description="Schedule a free leadership or financial assessment with Jason Ehlinger. Book for speaking, 1-on-1 coaching, or the free Wednesday masterclass on leadership and personal finance."
+  keywords="leadership assessment, book leadership coach, hire business coach, speaking inquiry, financial coaching consultation, free coaching session, leadership coaching consultation, contact Jason Ehlinger"
+>
+
+  <section class="page-hero">
+    <span class="section-label">Get in Touch</span>
+    <h1>Let's Talk.</h1>
+    <p>Whether you're ready to work together or just have a question — reach out. I read every message.</p>
+  </section>
+
+  <section class="section">
+    <div class="container" style="display:grid; grid-template-columns:1fr 1fr; gap:4rem; max-width:960px; margin:0 auto;">
+
+      <!-- FORM -->
+      <div>
+        <h2 style="font-size:1.5rem; margin-bottom:1.5rem;">Send a Message</h2>
+        <form name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
+
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required placeholder="Jason Smith" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="jason@example.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="type">What's this about?</label>
+            <select id="type" name="type">
+              <option value="coaching">1-on-1 Coaching / Assessment</option>
+              <option value="leadership">Leadership Consulting</option>
+              <option value="finance">Personal Finance Coaching</option>
+              <option value="speaking">Speaking Inquiry</option>
+              <option value="masterclass">Weekly Masterclass</option>
+              <option value="other">Something Else</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell me where you are and what you're working toward</label>
+            <textarea id="message" name="message" required placeholder="Give me a quick overview of your situation..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-gold" style="width:100%; font-size:1rem; padding:1rem;">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <!-- SIDEBAR -->
+      <div>
+        <h2 style="font-size:1.5rem; margin-bottom:1.5rem;">Other Ways to Connect</h2>
+
+        <div style="margin-bottom:2rem;">
+          <h3 style="font-size:1rem; margin-bottom:0.5rem;">Live on YouTube</h3>
+          <p style="color:var(--gray); font-size:0.95rem; margin-bottom:0.75rem;">I go live Tuesdays and Wednesdays on YouTube talking about money, wealth building, and financial freedom. Free to watch and join.</p>
+          <a href="https://www.youtube.com/@Visiontribemoney" target="_blank" rel="noopener" class="btn btn-dark" style="font-size:0.85rem; padding:0.6rem 1.25rem;">Watch Live ↗</a>
+        </div>
+
+        <div style="margin-bottom:2rem;">
+          <h3 style="font-size:1rem; margin-bottom:0.5rem;">Vision Tribe Money</h3>
+          <p style="color:var(--gray); font-size:0.95rem; margin-bottom:0.75rem;">777+ videos on personal finance, wealth building, and money in marriage. Free on YouTube.</p>
+          <a href="https://www.youtube.com/@Visiontribemoney" target="_blank" rel="noopener" class="btn btn-gold" style="font-size:0.85rem; padding:0.6rem 1.25rem;">Watch on YouTube ↗</a>
+        </div>
+
+        <div style="margin-bottom:2rem;">
+          <h3 style="font-size:1rem; margin-bottom:0.5rem;">Taika Translations</h3>
+          <p style="color:var(--gray); font-size:0.95rem; margin-bottom:0.75rem;">Need professional translation or language services? That's our other world.</p>
+          <div style="display:flex; flex-direction:column; gap:0.4rem; margin-top:0.25rem;">
+            <a href="https://www.taikatranslations.com" target="_blank" rel="noopener" style="color:var(--gold); font-size:0.9rem; font-weight:600;">taikatranslations.com ↗</a>
+            <a href="https://www.teamtaika.com" target="_blank" rel="noopener" style="color:var(--gold); font-size:0.9rem; font-weight:600;">teamtaika.com ↗</a>
+            <a href="https://www.tvpteam.com" target="_blank" rel="noopener" style="color:var(--gold); font-size:0.9rem; font-weight:600;">tvpteam.com ↗</a>
+          </div>
+        </div>
+
+        <div style="background:var(--light-gray); border-radius:4px; padding:1.5rem; margin-top:2rem;">
+          <h3 style="font-size:1rem; margin-bottom:0.5rem;">Follow Along</h3>
+          <div style="display:flex; flex-direction:column; gap:0.5rem; margin-top:0.75rem;">
+            <a href="https://www.instagram.com/jason.ehlinger/" target="_blank" rel="noopener" style="color:var(--gray); font-size:0.9rem;">Instagram: @jason.ehlinger</a>
+            <a href="https://www.facebook.com/jason.r.ehlinger" target="_blank" rel="noopener" style="color:var(--gray); font-size:0.9rem;">Facebook: jason.r.ehlinger</a>
+            <a href="https://www.youtube.com/@Visiontribemoney" target="_blank" rel="noopener" style="color:var(--gray); font-size:0.9rem;">YouTube: @Visiontribemoney</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MASTERCLASS SIGNUP -->
+  <section class="section section-dark text-center" id="masterclass">
+    <div class="container" style="max-width:580px;">
+      <span class="section-label">Free · Tuesdays & Wednesdays</span>
+      <h2 style="font-size:2rem; color:var(--white); margin-bottom:1rem;">Join Me Live on YouTube</h2>
+      <p style="color:#ccc; margin-bottom:2rem;">I go live on YouTube every Tuesday and Wednesday talking about money, wealth building, and financial freedom. Drop in, ask questions, and grow. Free. Always.</p>
+      <a href="https://www.youtube.com/@Visiontribemoney" target="_blank" rel="noopener" class="btn btn-gold" style="font-size:1rem; padding:0.85rem 2rem;">Watch on YouTube ↗</a>
+    </div>
+  </section>
+
+</Layout>
+
+<style>
+  @media (max-width: 768px) {
+    section > .container > div[style*="grid-template-columns:1fr 1fr"] {
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>

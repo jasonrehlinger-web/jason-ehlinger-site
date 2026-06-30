@@ -1,0 +1,184 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Leadership Coaching & Personal Finance Services"
+  description="Free leadership masterclass (The Forge), personal finance coaching, and 1-on-1 consulting with Jason Ehlinger. Proven frameworks for transitioning from manager to leader and building real wealth."
+  keywords="leadership coaching services, business coaching, The Forge leadership course, personal finance coaching, executive coaching, team building coaching, manager to leader, leadership development program, financial coaching, small business coach, entrepreneurship coach, performance coaching"
+>
+
+  <section class="page-hero">
+    <span class="section-label">Your Path Forward</span>
+    <h1>The Frameworks That<br/>Actually Change Things.</h1>
+    <p>You already have the drive. What's missing is a proven system. Start free — go deeper when you're ready.</p>
+  </section>
+
+  <!-- FREE COURSES -->
+  <section class="section section-gray">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:3rem;">
+        <span class="section-label">Start Here — 100% Free</span>
+        <h2 style="font-size:2rem;">Two Complete Free Courses on YouTube</h2>
+        <p style="color:var(--gray); max-width:580px; margin:0.75rem auto 0;">No email required. No paywall. Just go watch.</p>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem;">
+
+        <!-- The Forge -->
+        <div style="background:var(--black); color:var(--white); border-radius:4px; padding:2.5rem; display:flex; flex-direction:column;">
+          <span class="section-label">13-Part Masterclass</span>
+          <h3 style="font-size:1.8rem; color:var(--white); margin-bottom:0.5rem;">The Forge</h3>
+          <p style="color:#bbb; font-style:italic; margin-bottom:1rem; font-size:0.95rem;">Transitioning from Manager to Leader</p>
+          <p style="color:#aaa; margin-bottom:1.5rem; flex:1;">A complete course walking you through the transformation from task manager to true leader — covering vision, team building, tough conversations, scaling, accountability, and recovery from failure.</p>
+          <ul style="list-style:none; margin-bottom:1.5rem;">
+            {[
+              "Develop strong, unique leadership skills",
+              "Master tough conversations (5 essential skills)",
+              "Create a life-changing vision and turn it into action",
+              "Build vulnerability-based trust with your team",
+              "Run meetings that actually drive results",
+              "How to recover after total failure",
+              "Build long-term team commitment",
+              "Scale your business as a leader",
+            ].map(item => (
+              <li style="padding:0.4rem 0; font-size:0.9rem; color:#ccc; border-bottom:1px solid #2a2a2a;">
+                <span style="color:var(--gold); margin-right:0.5rem;">✓</span>{item}
+            </li>
+            ))}
+          </ul>
+          <a href="https://www.youtube.com/playlist?list=PL9gAYdG_RPlGi3HtmLBxfCVI0BRa4phIP" target="_blank" rel="noopener" class="btn btn-gold">Watch The Forge Free →</a>
+        </div>
+
+        <!-- Build Right Course -->
+        <div style="background:var(--white); border:2px solid #e8e8e8; border-radius:4px; padding:2.5rem; display:flex; flex-direction:column;">
+          <span class="section-label">7-Part Free Course</span>
+          <h3 style="font-size:1.8rem; margin-bottom:0.5rem;">Build Right</h3>
+          <p style="color:var(--gray); font-style:italic; margin-bottom:1rem; font-size:0.95rem;">How to Create a Successful Business From the Inside Out</p>
+          <p style="color:var(--gray); margin-bottom:1.5rem; flex:1;">Most businesses fail not because of bad products — but because of bad foundations. This free 7-part course teaches you how to build a healthy, high-performing business starting with culture, clarity, and the right priorities.</p>
+          <ul style="list-style:none; margin-bottom:1.5rem;">
+            {[
+              "Why most teams underperform — and how to fix it",
+              "The framework for real work satisfaction",
+              "How to build a company culture that actually sticks",
+              "Clarify your purpose so your team knows why they show up",
+              "Build a business strategy worth executing",
+              "Stop chasing the wrong priorities",
+              "How to grow when you finally have the right foundation",
+            ].map(item => (
+              <li style="padding:0.4rem 0; font-size:0.9rem; color:var(--gray); border-bottom:1px solid #eee;">
+                <span style="color:var(--gold); margin-right:0.5rem;">✓</span>{item}
+              </li>
+            ))}
+          </ul>
+          <a href="https://www.youtube.com/playlist?list=PL9gAYdG_RPlH3p90RRN9riuhGtMmWO8UC" target="_blank" rel="noopener" class="btn btn-dark">Watch Free on YouTube →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP COACHING -->
+  <section class="section" id="leadership">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:start;">
+        <div>
+          <span class="section-label">1-on-1 Leadership Coaching</span>
+          <h2 style="font-size:2rem; margin-bottom:1.25rem;">From Manager to Leader</h2>
+          <p style="color:var(--gray); margin-bottom:1.25rem; font-size:1.05rem;">The free courses give you the framework. Coaching is where you apply it to your specific situation — your team, your culture, your goals.</p>
+          <p style="color:var(--gray); margin-bottom:2rem;">I've built and led teams at Taika Translations, scaled to 7 figures without losing the mission, and navigated every version of the challenge you're facing. You don't have to figure it out alone.</p>
+          <a href="/contact" class="btn btn-dark">Book a Session</a>
+        </div>
+        <div>
+          <div class="card" style="margin-bottom:1rem;">
+            <h3 style="margin-bottom:0.5rem; font-size:1.1rem;">Leadership Audit</h3>
+            <p style="color:var(--gray); font-size:0.95rem;">A deep dive into your team dynamics, systems, and decision-making. You'll walk away with a specific, prioritized action plan.</p>
+          </div>
+          <div class="card" style="margin-bottom:1rem;">
+            <h3 style="margin-bottom:0.5rem; font-size:1.1rem;">Vision & Strategy</h3>
+            <p style="color:var(--gray); font-size:0.95rem;">Clarify your business purpose, build a mission-driven culture, and create a vision your team will actually follow.</p>
+          </div>
+          <div class="card" style="margin-bottom:1rem;">
+            <h3 style="margin-bottom:0.5rem; font-size:1.1rem;">Accountability Systems</h3>
+            <p style="color:var(--gray); font-size:0.95rem;">Build the structures that let your team own their results — without you micromanaging every detail.</p>
+          </div>
+          <div class="card">
+            <h3 style="margin-bottom:0.5rem; font-size:1.1rem;">Escape the Operator's Trap</h3>
+            <p style="color:var(--gray); font-size:0.95rem;">If the business can't run without you for a week, you'll finally have a clear picture of why — and know exactly what to change.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINANCE -->
+  <section class="section section-gray" id="finance">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:start;">
+        <div>
+          <span class="section-label">Personal Finance</span>
+          <h2 style="font-size:2rem; margin-bottom:1.25rem;">Building Wealth From Zero</h2>
+          <p style="color:var(--gray); margin-bottom:1.25rem; font-size:1.05rem;">777+ free videos on the <a href="https://www.youtube.com/@Visiontribemoney" target="_blank" style="color:var(--gold);">Vision Tribe Money</a> channel — covering everything from zero-based budgeting to building wealth when you feel stuck.</p>
+          <p style="color:var(--gray); margin-bottom:2rem;">For those who want to go deeper, I offer private finance coaching — looking at your specific numbers, situation, and goals and building a real plan.</p>
+          <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+            <a href="https://www.youtube.com/@Visiontribemoney" target="_blank" rel="noopener" class="btn btn-gold">Watch Free ↗</a>
+            <a href="/contact" class="btn btn-dark">Private Coaching</a>
+          </div>
+        </div>
+        <div>
+          <div class="card" style="margin-bottom:1rem;">
+            <h3 style="margin-bottom:0.5rem; font-size:1.1rem;">Zero-Based Budgeting</h3>
+            <p style="color:var(--gray); font-size:0.95rem;">A budget method that doesn't feel like a budget. Every dollar has a job before the month starts.</p>
+          </div>
+          <div class="card" style="margin-bottom:1rem;">
+            <h3 style="margin-bottom:0.5rem; font-size:1.1rem;">Finances in Marriage & Dating</h3>
+            <p style="color:var(--gray); font-size:0.95rem;">Money red flags, green flags, and how to get on the same page as a couple before it becomes a crisis.</p>
+          </div>
+          <div class="card" style="margin-bottom:1rem;">
+            <h3 style="margin-bottom:0.5rem; font-size:1.1rem;">Wealth Building From Nothing</h3>
+            <p style="color:var(--gray); font-size:0.95rem;">The habits, mindset, and systems behind saving $100k on a military salary and building from there.</p>
+          </div>
+          <div class="card">
+            <h3 style="margin-bottom:0.5rem; font-size:1.1rem;">Why You're Broke Despite Working Hard</h3>
+            <p style="color:var(--gray); font-size:0.95rem;">The income is rarely the problem. Together, you'll pinpoint exactly where the breakdown is — and walk away with a real plan to change it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COACHING -->
+  <section class="section" id="coaching">
+    <div class="container" style="max-width:800px; text-align:center;">
+      <span class="section-label">1-on-1</span>
+      <h2 style="font-size:2rem; margin-bottom:1.25rem;">Work Directly With Jason</h2>
+      <p style="color:var(--gray); margin-bottom:1.25rem; font-size:1.05rem;">Sometimes content isn't enough. You need someone who's been where you are — who can look at your specific situation and help you see your next move with clarity.</p>
+      <p style="color:var(--gray); margin-bottom:2.5rem;">Every engagement starts with a free assessment — no pitch, just an honest look at where you are, what's in the way, and the clearest path to where you want to go.</p>
+      <a href="/contact" class="btn btn-gold" style="font-size:1rem; padding:1rem 2.5rem;">Schedule a Free Assessment</a>
+    </div>
+  </section>
+
+  <!-- MASTERCLASS -->
+  <section class="section section-dark text-center">
+    <div class="container" style="max-width:600px;">
+      <span class="section-label">Free · Every Wednesday</span>
+      <h2 style="font-size:2rem; color:var(--white); margin-bottom:1rem;">Weekly Live Masterclasses</h2>
+      <p style="color:#ccc; margin-bottom:2rem;">Join live every Wednesday for sessions on leadership, money, mindset, and building an unbreakable life. Free — always.</p>
+      <form name="masterclass" method="POST" data-netlify="true"
+        style="display:flex; gap:0.75rem; max-width:440px; margin:0 auto; flex-wrap:wrap;">
+        <input type="hidden" name="form-name" value="masterclass" />
+        <input type="email" name="email" placeholder="Your email address" required
+          style="flex:1; padding:0.85rem 1rem; border:none; border-radius:2px; font-size:1rem; min-width:180px;" />
+        <button type="submit" class="btn btn-gold">Register Free</button>
+      </form>
+    </div>
+  </section>
+
+</Layout>
+
+<style>
+  @media (max-width: 768px) {
+    div[style*="grid-template-columns:1fr 1fr"] {
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>
